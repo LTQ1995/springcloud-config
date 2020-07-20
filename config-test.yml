@@ -1,13 +1,2 @@
-# 项目端口号
-server:
-  port: 8007
-# 服务别名 注册到consul的服务名称
-spring:
-  application:
-    name: consul-customer-order
-  cloud:
-    consul:
-      host: localhost
-      port: 8500
-      discovery:
-        service-name: ${spring.application.name}
+config:
+  info: test
